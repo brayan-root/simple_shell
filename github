@@ -1,0 +1,11 @@
+#!/bin/bash
+
+git add .
+
+echo "Enter The Commit Message"
+
+read MSG
+
+git commit -m "$MSG"
+
+git push
